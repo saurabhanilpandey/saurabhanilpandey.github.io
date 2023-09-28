@@ -1,0 +1,95 @@
+body {
+  font-family: 'Mooli', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+header { 
+  text-align: center;
+  padding: 20px 0;
+  color: #000000;
+  font-size: 30px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #000000;
+}
+
+section p {
+  font-size: 16px;
+  color: #000000;
+}
+
+@media (min-width: 767px){
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.project {
+  padding: 20px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.project a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-media-icons li {
+  margin: 0 10px;
+}
+
+.social-media-icons a {
+  filter: grayscale(100%);
+  text-decoration: none;
+  color: black;
+}
+
+.social-media-icons a:hover {
+  text-decoration: none;
+  color: black;
+  filter: none;
+}
+
+.social-media-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #000000;
+}
